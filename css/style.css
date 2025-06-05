@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    /* background-color: black;
+    color: white; */
+}
+
+.left {
+    width: 25vw;
+    padding: 3px;
+}
+
+.right {
+    width: 75vw;
+    padding: 3px;
+    margin: 8px;
+}
+
+.home ul li {
+    list-style: none;
+    display: flex;
+    width: 13px;
+    gap: 12px;
+    margin: 2px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.heading img {
+    width: 16px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 12px;
+    color: grey;
+    bottom: 0;
+    position: absolute;
+    padding: 10px;
+}
+
+.footer span {
+    color: grey;
+}
+
+.underlined-text {
+    text-decoration: underline;
+    text-decoration-color: rgb(25, 25, 25);
+}
+
+.library {
+    min-height: 75vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262424;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.header * {
+    padding: 4px;
+    margin-right: 4px;
+}
+
+/* .button * {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #503f3fde;
+    color: white;
+} */
+
+.spotify-playlist {
+    padding: 6px;
+    margin-top: 4px;
+}
+
+.card {
+    width: 120px;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #252525;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.card>* {
+    padding-top: 3px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+
+}
+
+.cardContainer {
+    margin: 16px 5px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
+.card p {
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.play {
+    width: 25px;
+    height: 23px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 12px;
+    bottom: 66px;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+
+.play img {
+    width: 13px;
+    height: 13px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    filter: brightness(0) saturate(100%);
+    display: block;
+}
+
+.signup-btn {
+    background-color: #262424;
+    color: #d3d3d3;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+     border: 2px solid red;
+}
+
+.signup-btn:hover {
+    font-size: 16px;
+    color: white;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
+    width: 58px;
+    padding: 7px;
+    border: 2px solid red;
+}
+
+.login-btn:hover {
+    width: 60px;
+}
